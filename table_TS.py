@@ -45,7 +45,7 @@ def stdout_redirected(to=os.devnull, stdout=None):
 import pycosat
 import time
 import encoding as ed
-import TS_generator as gen
+# import TS_generator as gen
 
 def extract_stats (game):
   '''This extracts the number of conflicts and the number of seconds'''
