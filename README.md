@@ -20,3 +20,7 @@ C) If you are here to use PycoSAT for solving train sudokus, plese start by insu
 You can use encoding.py (written in python 2.7) in one of the following ways:
   - use the function solve_and_print with a game g as an argument to solve g and print both the completed and uncompleted board
   - call the function example_solve without any arguments to see the outputs for 4 examples
+
+D) If you are here to generate plots picturing the dependency between the number of stations and the number of conflicts use table_TS.py (also written in python 2.7). For running this you need to install the following packages: os, sys, pycosat, time, and matplotlib. Also, make sure that encoding.py and the relevant dataset (named as in A) are in the same folder.
+
+To generate the plot call graph_gen with n, m and the maximum number of tests as argument. 
