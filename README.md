@@ -13,3 +13,10 @@ A) If you are here to download a dataset of train sudokus go to the folder datas
 B) If you are here to create a new dataset of train sudokus, then use  TS_generator.py (written in python 2.7), in the following way:
   - for creating one train sudoku example with a board of size n by m and k stations, use the function sudo_train_gen passing the tuple (n, m, k) as an argument
   - for creating a dataset file of sudoku train examples with board size n by m, and t many examples for each value of k between 2 and n*m use the function st_dataset passing n, m, and t as arguments
+
+C) If you are here to use PycoSAT for solving train sudokus, plese start by insuring that you have the relevant packages installed:
+  - pycosat
+  - pandas
+You can use encoding.py (written in python 2.7) in one of the following ways:
+  - use the function solve_and_print with a game g as an argument to solve g and print both the completed and uncompleted board
+  - call the function example_solve without any arguments to see the outputs for 4 examples
