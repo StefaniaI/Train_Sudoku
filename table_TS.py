@@ -115,7 +115,7 @@ def find_average_no_conflicts (examples):
 import matplotlib.pyplot as plt
 
 def graph_gen (n, m, no_tests):
-  '''Constructs the plots for the average of clauses and average number of 
+  '''Constructs the plots for the average of conflicts and average number of 
   seconds for different values of k'''
   
   y = []
